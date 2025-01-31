@@ -459,6 +459,7 @@ int kama_pgtblprint(pagetable_t pagetable, int depth)
 {
   for (int i = 0; i < 512; i++)
   {
+    pte_t pte = pagetable[i];
   }
   return 0;
 }
